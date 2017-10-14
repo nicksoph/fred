@@ -1,0 +1,41 @@
+.hidden {
+    display: none !important; 
+}
+
+#mona {
+    width: 100%;
+    height: 100%;
+    
+}  
+
+.images {
+    width: 100%;
+    height: 100%;
+    
+}  
+
+.scale{
+    object-fit: scale-down;
+} 
+
+
+#canvasDiv
+{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 100px;
+    bottom: 100px;
+    z-index: 1;
+    background-color: grey;
+}
+
+#myCanvas
+{   position: absolute;
+    width: 96%;
+    height: 96%;
+    left: 2%;
+    top: 2%;
+    z-index: 1;
+    background-color: white;
+}
